@@ -163,21 +163,21 @@
 			isa = PBXGroup;
 			children = (
 				1966435821991F00005BC568 /* SDAnimatedImageRep.h */,
+				1966436121991F00005BC568 /* SDAnimatedImageRep.m */,
 				1966435921991F00005BC568 /* SDWebImageCoder.h */,
+				1966436021991F00005BC568 /* SDWebImageCoder.m */,
+				1966436221991F00005BC568 /* SDWebImageFrame.h */,
 				1966435A21991F00005BC568 /* SDWebImageFrame.m */,
+				1966436421991F00005BC568 /* SDWebImageCodersManager.h */,
 				1966435B21991F00005BC568 /* SDWebImageCodersManager.m */,
 				1966435C21991F00005BC568 /* SDWebImageGIFCoder.h */,
-				1966435D21991F00005BC568 /* SDWebImageWebPCoder.h */,
-				1966435E21991F00005BC568 /* SDWebImageCoderHelper.m */,
-				1966435F21991F00005BC568 /* SDWebImageImageIOCoder.h */,
-				1966436021991F00005BC568 /* SDWebImageCoder.m */,
-				1966436121991F00005BC568 /* SDAnimatedImageRep.m */,
-				1966436221991F00005BC568 /* SDWebImageFrame.h */,
 				1966436321991F00005BC568 /* SDWebImageGIFCoder.m */,
-				1966436421991F00005BC568 /* SDWebImageCodersManager.h */,
+				1966435D21991F00005BC568 /* SDWebImageWebPCoder.h */,
+				1966436721991F00005BC568 /* SDWebImageWebPCoder.m */,
+				1966435F21991F00005BC568 /* SDWebImageImageIOCoder.h */,
 				1966436521991F00005BC568 /* SDWebImageImageIOCoder.m */,
 				1966436621991F00005BC568 /* SDWebImageCoderHelper.h */,
-				1966436721991F00005BC568 /* SDWebImageWebPCoder.m */,
+				1966435E21991F00005BC568 /* SDWebImageCoderHelper.m */,
 			);
 			path = Decoder;
 			sourceTree = "<group>";
