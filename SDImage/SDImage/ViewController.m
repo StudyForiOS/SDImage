@@ -29,6 +29,7 @@
     }];
     NSLog(@"%lu", (unsigned long)[[SDImageCache sharedImageCache] getSize]);
     [imageView sd_setImageWithURL:url placeholderImage:nil options:3];
+ 
     
 }
 

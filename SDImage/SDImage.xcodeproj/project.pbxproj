@@ -191,10 +191,10 @@
 				1966436C21991F00005BC568 /* UIImage+GIF.m */,
 				1966436D21991F00005BC568 /* UIImage+MultiFormat.m */,
 				1966436E21991F00005BC568 /* UIView+WebCacheOperation.h */,
+				1966437221991F00005BC568 /* UIView+WebCacheOperation.m */,
 				1966436F21991F00005BC568 /* UIImage+WebP.h */,
 				1966437021991F00005BC568 /* NSData+ImageContentType.m */,
 				1966437121991F00005BC568 /* UIImage+ForceDecode.h */,
-				1966437221991F00005BC568 /* UIView+WebCacheOperation.m */,
 				1966437321991F00005BC568 /* UIImage+MultiFormat.h */,
 				1966437421991F00005BC568 /* UIImage+GIF.h */,
 			);
@@ -205,8 +205,8 @@
 			isa = PBXGroup;
 			children = (
 				1966437721991F00005BC568 /* SDImageCache.h */,
-				1966437821991F00005BC568 /* SDImageCacheConfig.h */,
 				1966437921991F00005BC568 /* SDImageCache.m */,
+				1966437821991F00005BC568 /* SDImageCacheConfig.h */,
 				1966437A21991F00005BC568 /* SDImageCacheConfig.m */,
 			);
 			path = Cache;
@@ -216,10 +216,10 @@
 			isa = PBXGroup;
 			children = (
 				1966437D21991F00005BC568 /* SDWebImageTransition.h */,
-				1966437E21991F00005BC568 /* SDWebImageManager.m */,
-				1966437F21991F00005BC568 /* SDWebImagePrefetcher.m */,
 				1966438021991F00005BC568 /* SDWebImageTransition.m */,
 				1966438121991F00005BC568 /* SDWebImageManager.h */,
+				1966437E21991F00005BC568 /* SDWebImageManager.m */,
+				1966437F21991F00005BC568 /* SDWebImagePrefetcher.m */,
 				1966438221991F00005BC568 /* SDWebImagePrefetcher.h */,
 			);
 			path = Utils;
@@ -228,20 +228,20 @@
 		1966438321991F00005BC568 /* WebCache Categories */ = {
 			isa = PBXGroup;
 			children = (
+				1966438C21991F00005BC568 /* MKAnnotationView+WebCache.h */,
 				1966438421991F00005BC568 /* MKAnnotationView+WebCache.m */,
 				1966438521991F00005BC568 /* NSButton+WebCache.h */,
+				1966438B21991F00005BC568 /* NSButton+WebCache.m */,
 				1966438621991F00005BC568 /* NSImage+WebCache.h */,
+				1966438F21991F00005BC568 /* NSImage+WebCache.m */,
 				1966438721991F00005BC568 /* UIImageView+WebCache.h */,
+				1966438E21991F00005BC568 /* UIImageView+WebCache.m */,
+				1966438D21991F00005BC568 /* UIImageView+HighlightedWebCache.h */,
 				1966438821991F00005BC568 /* UIImageView+HighlightedWebCache.m */,
 				1966438921991F00005BC568 /* UIButton+WebCache.h */,
-				1966438A21991F00005BC568 /* UIView+WebCache.h */,
-				1966438B21991F00005BC568 /* NSButton+WebCache.m */,
-				1966438C21991F00005BC568 /* MKAnnotationView+WebCache.h */,
-				1966438D21991F00005BC568 /* UIImageView+HighlightedWebCache.h */,
-				1966438E21991F00005BC568 /* UIImageView+WebCache.m */,
-				1966438F21991F00005BC568 /* NSImage+WebCache.m */,
-				1966439021991F00005BC568 /* UIView+WebCache.m */,
 				1966439121991F00005BC568 /* UIButton+WebCache.m */,
+				1966438A21991F00005BC568 /* UIView+WebCache.h */,
+				1966439021991F00005BC568 /* UIView+WebCache.m */,
 			);
 			path = "WebCache Categories";
 			sourceTree = "<group>";

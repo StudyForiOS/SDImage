@@ -27,7 +27,7 @@ inline UIImage *SDScaledImageForKey(NSString * _Nullable key, UIImage * _Nullabl
 #elif SD_UIKIT || SD_WATCH
     if ((image.images).count > 0) {
         NSMutableArray<UIImage *> *scaledImages = [NSMutableArray array];
-
+        
         for (UIImage *tempImage in image.images) {
             [scaledImages addObject:SDScaledImageForKey(key, tempImage)];
         }
